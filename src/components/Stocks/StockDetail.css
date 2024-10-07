@@ -1,0 +1,32 @@
+.stock-detail-page {
+    padding: 24px;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+  }
+  
+  .stock-card {
+    margin-top: 24px;
+    padding: 16px;
+  }
+  
+  .back-button {
+    margin-bottom: 16px;
+  }
+  
+  .quote-card {
+    margin-top: 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ant-statistic-title {
+    color: #595959;
+  }
+  
+  .ant-statistic-content-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  

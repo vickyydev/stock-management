@@ -1,0 +1,52 @@
+.home-page {
+  padding: 24px;
+  background-color: #f0f2f5;
+}
+
+.home-page .ant-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-page .ant-card p {
+  font-size: 16px;
+}
+
+.ant-divider-horizontal {
+  margin: 16px 0;
+}
+
+.ant-card-head-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Adjust the layout for smaller devices */
+@media (max-width: 768px) {
+  .home-page {
+    padding: 12px;
+  }
+
+  .home-page .ant-card {
+    margin-bottom: 16px;
+  }
+
+  /* Stack the columns vertically on smaller screens */
+  .ant-row {
+    flex-direction: column;
+  }
+
+  .ant-col {
+    width: 100% !important;
+  }
+
+  /* Adjust the button sizes for smaller screens */
+  .ant-btn {
+    width: 100%;
+  }
+
+  .ant-col {
+    max-width: 100% !important;
+  }
+}

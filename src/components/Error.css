@@ -1,0 +1,63 @@
+/* Wrapper for the full screen */
+.error-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f0f7ff 0%, #cce0ff 100%);
+  }
+  
+  /* Container for the error content */
+  .error-container {
+    width: 100%;
+  }
+  
+  /* Content box */
+  .error-content {
+    text-align: center;
+    background: white;
+    padding: 60px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .error-title {
+    font-size: 120px;
+    color: #ff4d4f;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtitle styling */
+  .error-subtitle {
+    font-size: 28px;
+    color: #595959;
+    margin-bottom: 20px;
+  }
+  
+  /* Description styling */
+  .error-description {
+    font-size: 18px;
+    color: #8c8c8c;
+    margin-bottom: 40px;
+  }
+  
+  /* Row for the button */
+  .error-button-row {
+    margin-top: 30px;
+  }
+  
+  /* Button styling */
+  .error-button {
+    background-color: #1890ff;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .error-button:hover {
+    background-color: #40a9ff;
+  }
+  

@@ -1,0 +1,95 @@
+/* General Page Styles */
+.portfolio-page {
+  padding: 24px;
+  background-color: #f0f2f5;
+}
+
+/* Card Styling */
+.portfolio-page .ant-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 24px;
+}
+
+/* Statistic Title */
+.portfolio-page .ant-statistic-title {
+  color: #1890ff;
+}
+
+/* Table Margin */
+.portfolio-page .ant-table {
+  margin-top: 24px;
+}
+
+/* Button Styling */
+.portfolio-page .ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+/* Responsive Styles */
+
+/* Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+  .portfolio-page {
+    padding: 12px;
+  }
+
+  /* Stack columns vertically on smaller screens */
+  .ant-row {
+    flex-direction: column;
+  }
+
+  .ant-col {
+    width: 100% !important;
+  }
+
+  /* Responsive Chart */
+  .portfolio-page .ant-card .ant-pie {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Buttons take full width on mobile */
+  .portfolio-page .ant-btn {
+    width: 100%;
+    margin-bottom: 16px;
+    /* Add spacing between buttons on mobile */
+  }
+
+  /* Table responsive adjustments */
+  .portfolio-page .ant-table {
+    overflow-x: auto;
+    /* Allow horizontal scrolling for large tables */
+  }
+
+  /* Adjust card titles */
+  .portfolio-page .ant-card-head-title {
+    font-size: 16px;
+  }
+
+  .portfolio-page .ant-statistic {
+    text-align: center;
+    /* Center align statistics on mobile */
+  }
+}
+
+/* Tablet View (max-width: 1024px) */
+@media (max-width: 1024px) {
+
+  /* Reduce padding on tablet */
+  .portfolio-page {
+    padding: 16px;
+  }
+
+  /* Chart Resizing */
+  .portfolio-page .ant-card {
+    margin-bottom: 16px;
+  }
+
+  /* Center buttons on smaller screens */
+  .portfolio-page .ant-btn-primary {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
